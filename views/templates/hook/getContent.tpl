@@ -1,3 +1,14 @@
+{*
+ * This file is part of ya_smarty_fix.
+ *
+ * @author Adrien PACIOS
+ * @copyright YATEO
+ * @license MIT
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ *}
+
 <div id="ya_app" class="container">
     {if !empty($message)}
         <div class="module_confirmation conf confirm alert alert-success">

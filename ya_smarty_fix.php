@@ -1,5 +1,16 @@
 <?php
 
+/**
+ * This file is part of ya_smarty_fix.
+ *
+ * @author Adrien PACIOS
+ * @copyright YATEO
+ * @license MIT
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 if (!defined('_PS_VERSION_')) {
     exit;
 }

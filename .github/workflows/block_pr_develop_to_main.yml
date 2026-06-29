@@ -1,0 +1,11 @@
+name: Block develop → main
+on:
+  pull_request:
+    branches: [main, master]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Block PR from develop/dev branches
+        if: github.head_ref == 'develop' || github.head_ref == 'dev'
+        run: exit 1
